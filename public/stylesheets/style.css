@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+
+body {
+	background: url("http://wallpapercave.com/wp/2u56syS.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+a {
+	padding-top: 50px;
+  color: maroon;
+  font-size: 20px;
+}
+
+a:hover {
+	font-size: 30px;
+	font-weight: bold;
+	color: maroon;
+	text-decoration: none;
+}
+.movie {
+	margin-bottom: 15px;
+	background-color: #FAEBD7;
+	border: 5px solid black;
+	box-shadow: 10px 10px 5px rgba(0,0,0, .5);
+}
+
+.title {
+	font-family: "LimeLight";
+	font-size: 75px;
+	text-shadow: #CCC 1px 0 10px
+}
+
+.movie-info {
+	background-color: #FAEBD7;
+	box-shadow: 10px 10px 5px rgba(0,0,0, .5);
+	padding: 30px;
+}
+
+.poster {
+	margin-left: 50px;
+	box-shadow: 10px 10px 5px rgba(0,0,0, .5);
+}
+
+.home-link {
+	color: black;
+}
+
+.home-link
