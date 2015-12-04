@@ -18,6 +18,10 @@
 
 	.config(function($routeProvider, $locationProvider){
 		$routeProvider
+		.when('/', {
+			templateUrl: '/partials/home.html',
+			controller: 'HomeController'
+		})
 		.when('/:param1', {
 			templateUrl: '/partials/show.html',
 			controller: 'ShowController'
